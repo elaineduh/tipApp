@@ -49,10 +49,6 @@ class ViewController: UIViewController {
         // Update tip labels/recalculate
         updateTipLabels()
     }
-
-    @IBAction func onTap(_ sender: Any) {
-        view.endEditing(true)
-    }
     
     @IBAction func calculateTip(_ sender: Any) {
         updateTipLabels()
